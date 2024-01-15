@@ -1,0 +1,19 @@
+// import partials
+@import "partials/root";
+@import "partials/variables";
+@import "partials/reset";
+@import "partials/mixins";
+@import "partials/placeholder";
+@import "partials/base";
+
+// import components
+@import "components/header";
+@import "components/footer";
+
+// import page
+// 1. Home
+@import "pages/home/hero";
+@import "pages/home/product";
+@import "pages/home/posts";
+// 2.About
+@import "pages/about/about";
