@@ -235,6 +235,9 @@
                     line-height: normal;
                     margin-left: auto;
                     margin-right: auto;
+                    &:hover {
+                        background: #ff6916;
+                    }
                 }
             }
 
@@ -326,7 +329,6 @@
                 flex-wrap: wrap;
                 .product-item {
                     flex-basis: calc((100% - $column-gap) / 2);
-                    //   max-width: 260px;
 
                     .icon-perspective {
                         padding-left: 12px;
